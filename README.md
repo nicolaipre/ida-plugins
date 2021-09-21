@@ -2,7 +2,7 @@
 
 ## Plugins
 - Copy hex without the junk: https://github.com/OALabs/hexcopy-ida
-- Find diff in samples by copying idb from already reversed sample: https://www.zynamics.com/bindiff/manual/
+- Find diff in samples with idb from reversed samples: https://www.zynamics.com/bindiff/manual/
 - Run Yara rules over a binary: https://github.com/OALabs/findyara-ida
 
 
