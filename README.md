@@ -7,12 +7,11 @@
 
 
 ## Helpful tools
-- Like cyberchef, but CLI and faster: https://github.com/binref/refinery
+- Like CyberChef, but CLI and faster: https://github.com/binref/refinery
 
 
 ## Lumina
 ```
-**About**
 In a nutshell Lumina is the evolution of the good old FLIRT (Fast Library Identification and Recognition Technology) mechanism with some improvements:
 
 - feature is embedded in IDA GUI : external tools to generate signatures are no longer needed
@@ -21,8 +20,8 @@ In a nutshell Lumina is the evolution of the good old FLIRT (Fast Library Identi
 - additional metadata is stored, instead of only function name and comment in the past.
 ```
 
-**Usage**
-A public Lumina-like server we can use is [Lumen](https://lumen.abda.nl/). You can also run your own private Lumen server: [(src)](https://github.com/naim94a/lumen). To use it, update your `cfg/ida.cfg`:
+### Usage
+A public Lumina-like server is [Lumen](https://lumen.abda.nl/). You can also run your own private Lumen server: [(src)](https://github.com/naim94a/lumen). To use it, update your `cfg/ida.cfg`:
 ```
 // Lumina related parameters
 LUMINA_HOST = "lumen.abda.nl"; // Lumina server url (default = "lumina.hex-rays.com") // Warning: don't forget the semicolon or file parsing would fail
